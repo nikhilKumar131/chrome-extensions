@@ -1,13 +1,19 @@
 {
     "manifest_version": 2,
-    "name": "Read Aloud",
+    "name": "Read Aloud ResponsiveSpeech",
     "version": "1.0",
     "description": "Reads aloud the selected text on the screen.",
-    "permissions": ["activeTab","<all_urls>", "tts", "contextMenus"],
+    "permissions": [
+        "activeTab","<all_urls>", "tts", "contextMenus"
+    ],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
     },
+    "web_accessible_resources": [
+      "index.html",
+      "https://code.responsivevoice.org/responsivevoice.js?key=5yU8PvK1"
+    ],
     "icons": {
       "16": "icon.png",
       "48": "icon.png",
