@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Inspirational Quotes",
+  "version": "1.0",
+  "description": "Displays random inspirational quotes on a new tab.",
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

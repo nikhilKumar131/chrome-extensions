@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Read Aloud",
+    "version": "1.0",
+    "description": "Reads aloud the selected text on the screen.",
+    "permissions": ["activeTab", "tts"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
